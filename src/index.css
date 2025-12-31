@@ -1,0 +1,105 @@
+/* ===== 全局基础 ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* ===== 顶部导航栏 ===== */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar a {
+  margin-right: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar a:hover {
+  color: #005eff;
+}
+
+.navbar a.active {
+  color: #005eff;
+  font-weight: 600;
+}
+
+/* ===== 页面容器 ===== */
+.page-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* ===== 标题 ===== */
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* ===== 按钮 ===== */
+.btn {
+  background: #005eff;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background: #0041b3;
+}
+
+/* ===== 表单 ===== */
+.input-box {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* ===== 列表卡片（ListPage）===== */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-sub {
+  font-size: 14px;
+  color: #555;
+}
